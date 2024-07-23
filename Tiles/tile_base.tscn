@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bqpuqg6pap15r"]
+
+[ext_resource type="Script" path="res://Tiles/tile_base.gd" id="1_ejh1b"]
+
+[node name="TileBase" type="MarginContainer"]
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_ejh1b")
