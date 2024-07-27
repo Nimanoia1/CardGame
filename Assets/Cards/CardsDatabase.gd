@@ -1,4 +1,4 @@
-
+extends Resource
 # WorkerTiles = [TileType, Amount, EastWorkers, SouthWorkers, WestWorkers, NorthWorkers]
 #Cardinal Directions Based on Original Layout of Tile
 # FarmTiles = [TileType, Amount, Harvest]

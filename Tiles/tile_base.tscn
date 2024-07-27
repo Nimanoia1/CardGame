@@ -1,8 +1,12 @@
-[gd_scene load_steps=2 format=3 uid="uid://bqpuqg6pap15r"]
+[gd_scene load_steps=3 format=3 uid="uid://bqpuqg6pap15r"]
 
 [ext_resource type="Script" path="res://Tiles/tile_base.gd" id="1_ejh1b"]
+[ext_resource type="Texture2D" uid="uid://b3mmkalhvi3qt" path="res://Assets/Cards/Tiles/Workers/BalancedTile.png" id="2_ri0u1"]
 
 [node name="TileBase" type="MarginContainer"]
-offset_right = 40.0
-offset_bottom = 40.0
+offset_right = 600.0
+offset_bottom = 600.0
 script = ExtResource("1_ejh1b")
+
+[node name="Tile" type="Sprite2D" parent="."]
+texture = ExtResource("2_ri0u1")
