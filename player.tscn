@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://d0riap1ut48ti"]
+
+[node name="Player" type="Area2D"]
+position = Vector2(3, 10)
+metadata/_edit_group_ = true
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="Camera2D" type="Camera2D" parent="."]

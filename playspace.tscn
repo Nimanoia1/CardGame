@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://dg28dnn2eeyxp"]
+
+[ext_resource type="Script" path="res://Playspace.gd" id="1_akvdm"]
+[ext_resource type="Texture2D" uid="uid://b1owukok7mgx4" path="res://Assets/Background/Jungle.png" id="2_rpq8v"]
+
+[node name="Playspace" type="Node2D"]
+script = ExtResource("1_akvdm")
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(604, 320)
+texture = ExtResource("2_rpq8v")
